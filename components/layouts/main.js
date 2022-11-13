@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../navbar'
-import noSsr from '../no-ssr'
+//import noSsr from '../no-ssr'
 import { Box, Container } from '@chakra-ui/react'
 import Sign3d from '../sign.js'
 import NoSsr from '../no-ssr'
