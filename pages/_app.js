@@ -12,6 +12,7 @@ const Website = ({ Component, pageProps, router } ) => {
             <Layout router={router}>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Component {...pageProps} key={router.route} />
+                    <Component {...pageProps} />
                     <Analytics />
                 </AnimatePresence>
             </Layout>
